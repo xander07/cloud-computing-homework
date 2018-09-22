@@ -11,7 +11,7 @@ const server= http.createServer(app);
 const io = socketio.listen(server);
 
 // connection to the server
-mongoose.connect('mongodb://localhost/chat')
+mongoose.connect('mongodb://japaniaguab:Epalaarepa123@ds111113.mlab.com:11113/cloudcomputing')
   .then(db => console.log('db connected'))
   .catch(err => console.log(err));
 
